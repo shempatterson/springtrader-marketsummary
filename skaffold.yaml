@@ -17,3 +17,5 @@ deploy:
           productName: "{{.PRODUCT_NAME}}"
         setValues:
           hpa.enabled: true
+          canary.enabled: true
+
